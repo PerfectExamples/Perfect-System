@@ -9,7 +9,6 @@
 
 import PerfectLib
 import Foundation
-import Cocoa
 
 #if os(Linux)
 	import SwiftGlibc
