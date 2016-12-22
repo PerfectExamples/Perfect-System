@@ -1,4 +1,4 @@
-# Perfect System Access Example [简体中文](README.zh_CN.md)
+# Perfect 系统访问示例 [English](README.md)
 
 <p align="center">
     <a href="http://perfect.org/get-involved.html" target="_blank">
@@ -39,46 +39,45 @@
     </a>
 </p>
 
-An example demonstrating host operating system access using Perfect.
+一个使用Perfect演示主机操作系统访问的示例
 
-This package builds with Swift Package Manager and is part of the [Perfect](https://github.com/PerfectlySoft/Perfect) project.
+该项目通过SPM软件包管理器编译，是[Perfect](https://github.com/PerfectlySoft/Perfect)项目之一</br>
+请确保您已经安装了Xcode 8.0或更高版本。
 
-Ensure you have installed Xcode 8.0 or later.
+## 准备工作 - 使用Xcode 8
 
-## Setup - Xcode 8
-
-* Check out or download the project;
-* In terminal, navigate to the directory and execute
+* 导出或下载工程
+* 在终端中，导航到目录并执行:
 
 ```
 swift package generate-xcodeproj
 ```
 
-* Open `Perfect-System.xcodeproj`
-* Select the Executable build target from the build targets dropdown in Xcode
-* Run (cmd-R) to build & run in Xcode.
+* 打开 `Perfect-System.xcodeproj`
+* 在Xcode的构建目标下拉来选择可执行文件
+* 在Xcode中使用(cmd-R)命令来编译运行项目工程
 
-In Xcode's console output pane you will see the result of the two commands, `dig perfect.org` and `ls -la`
-
-
-## Setup - Terminal
-
-* Check out or download the project;
-* In terminal, navigate to the directory 
-* Execute `swift build`
-* Once the project has compiled, execute `./.build/debug/Perfect-System`
-
-You will see output as above.
+在Xcode控制台输出中你会看到两个命令的结果, `dig perfect.org` 和 `ls -la`
 
 
-## Issues
+## 准备工作 - 使用终端
 
-We are transitioning to using JIRA for all bugs and support related issues, therefore the GitHub issues has been disabled.
+* 导出或下载工程;
+* 在终端中，导航到工程目录
+* 执行 `swift build`
+* 项目编译成功后, 请执行  `./.build/debug/Perfect-System`命令
 
-If you find a mistake, bug, or any other helpful suggestion you'd like to make on the docs please head over to [http://jira.perfect.org:8080/servicedesk/customer/portal/1](http://jira.perfect.org:8080/servicedesk/customer/portal/1) and raise it.
+您将会看到输出同上.
 
-A comprehensive list of open issues can be found at [http://jira.perfect.org:8080/projects/ISS/issues](http://jira.perfect.org:8080/projects/ISS/issues)
+## 问题报告
+
+目前我们已经把所有错误报告合并转移到了JIRA上，因此github原有的错误汇报功能不能用于本项目。
+
+您的任何宝贵建意见或建议，或者发现我们的程序有问题，欢迎您在这里告诉我们。[http://jira.perfect.org:8080/servicedesk/customer/portal/1](http://jira.perfect.org:8080/servicedesk/customer/portal/1)。
+
+目前问题清单请参考以下链接： [http://jira.perfect.org:8080/projects/ISS/issues](http://jira.perfect.org:8080/projects/ISS/issues)
 
 
-## Further Information
-For more information on the Perfect project, please visit [perfect.org](http://perfect.org).
+
+## 更多内容
+关于Perfect更多内容，请参考[perfect.org](http://perfect.org)官网。
